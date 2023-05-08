@@ -35,9 +35,9 @@ const ProjectX = () => {
           </div>
         </div>
         <div className='d-grid'>
-        <button className='pink text-center mt-4'>Proceed to Payment</button>
+        <button className='pink text-center mt-5'>Proceed to Payment</button>
         </div>
-              <div className='text-center mt-4 cancel'>
+              <div className='text-center mt-5 cancel'>
                 <p>Cancel Order</p>
               </div>
         </div>
