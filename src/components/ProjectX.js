@@ -8,11 +8,11 @@ import music from '../assets/icon-music (1).svg'
 const ProjectX = () => {
   return (
     <div className='er'>
-    <div id='ant' className='mt-5'>
+    <div id='ant' className='mt-3'>
       <div style={{height: '100%'}} className='d-flex justify-content-center align-items-center'>
-        <div style={{width: '25rem', height: '90%'}} className='ro'>
+        <div style={{width: '20rem', height: '90%'}} className='ro'>
           <div> 
-        <img src={picture} alt="" style={{width: '25rem', height: '11rem'}} className='dd'/>
+        <img src={picture} alt="" style={{width: '20rem', height: '11rem'}} className='dd'/>
         </div>
         <div className='text-center mt-4 we'>
           <h2>Order Summary</h2>
@@ -20,8 +20,8 @@ const ProjectX = () => {
         <div className='text-center pea mt-4'>
           <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
         </div>
-        <div className='red grid-container container-fluid mt-5'>
-          <div className='rows align-items-center '>
+        <div className='red grid container mt-2'>
+          <div className='rows align-items-center container'>
             <div className='icon '>
               <img src={music} alt="music-icon" />
             </div>
@@ -35,9 +35,9 @@ const ProjectX = () => {
           </div>
         </div>
         <div className='d-grid'>
-        <button className='pink text-center mt-4'>Proceed to Payment</button>
+        <button className='pink text-center mt-3'>Proceed to Payment</button>
         </div>
-              <div className='text-center mt-4 cancel'>
+              <div className='text-center mt-2 cancel'>
                 <p>Cancel Order</p>
               </div>
         </div>
