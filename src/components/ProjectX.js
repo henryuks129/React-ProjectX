@@ -20,7 +20,7 @@ const ProjectX = () => {
         <div className='text-center pea mt-4'>
           <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
         </div>
-        <div className='red grid container mt-2'>
+        <div className='red grid container mt-3'>
           <div className='rows align-items-center container'>
             <div className='icon '>
               <img src={music} alt="music-icon" />
@@ -37,7 +37,7 @@ const ProjectX = () => {
         <div className='d-grid'>
         <button className='pink text-center mt-3'>Proceed to Payment</button>
         </div>
-              <div className='text-center mt-2 cancel'>
+              <div className='text-center mt-3 cancel'>
                 <p>Cancel Order</p>
               </div>
         </div>
