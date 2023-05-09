@@ -58,7 +58,7 @@ const ProjectX = () => {
         <button className='pink text-center mt-4'>Proceed to Payment</button>
         </div>
               <div className='text-center mt-4 cancel'>
-                <p>Cancel Order</p>
+                <p onClick={()=>setChange([])}>{change.length === 0 ? 'refresh': 'cancel'}</p>
               </div>
         </div>
       </div>

@@ -20,8 +20,8 @@
     background: hsl(225, 100%, 94%) url('../assets/pattern-background-mobile.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 95%;
-    height: 100%;
+    width: 98%;
+    height: 90%;
     margin: auto;
     border-radius: 5px;
     margin-top: 0.5rem;
@@ -108,6 +108,12 @@
     font-size: var(--Font-size);
     color: var(--Desaturated-blue);
 }
+.cancel:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
 
 @media (min-width: 1024px) {
     #ant{
