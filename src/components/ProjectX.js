@@ -30,9 +30,9 @@ const ProjectX = () => {
     <div className='er'>
     <div id='ant' className=''>
       <div style={{height: '100%'}} className='d-flex justify-content-center align-items-center'>
-        <div style={{width: '18rem', height: '90%'}} className='ro'>
+        <div style={{width: '20rem', height: '90%'}} className='ro'>
           <div> 
-        <img src={picture} alt="" style={{width: '18rem', height: '11rem'}} className='dd'/>
+        <img src={picture} alt="" style={{width: '20rem', height: '11rem'}} className='dd'/>
         </div>
         <div className='text-center mt-4 we'>
           <h2>Order Summary</h2>

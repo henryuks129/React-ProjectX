@@ -20,11 +20,11 @@
     background: hsl(225, 100%, 94%) url('../assets/pattern-background-mobile.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 85%;
+    width: 95%;
     height: 100%;
     margin: auto;
     border-radius: 5px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .ro{
@@ -41,7 +41,6 @@
 
 .red{
     background-color: var(--Very-pale-blue);
-    width: 2rem;
 }
 
 .rows{
@@ -68,7 +67,7 @@
 
 .pink{
     margin: auto;
-    width: 15rem;
+    width: 16rem;
     height: 3rem;
     border-radius: 10px;
     background-color: var(--Bright-blue);
@@ -83,7 +82,7 @@
 }
 
 .pea{
-    width: 18.1rem;
+    width: 19rem;
     margin: auto;
     font-size: var(--Font-size);
     color: var(--Desaturated-blue);
@@ -101,7 +100,7 @@
 }
 
 .red{
-    width: 17rem;
+    width: 19rem;
     border-radius: 15px;
 }
 
