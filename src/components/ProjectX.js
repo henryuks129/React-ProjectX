@@ -1,18 +1,38 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../styles/ProjectX.css';
 import picture from'../assets/illustration-hero.svg'
 import music from '../assets/icon-music (1).svg'
 
 
 
+
 const ProjectX = () => {
+  // let plan = 'Annual Plan'
+  // let price = '$59.99/year'
+  // let newPrice = '$' + (59.99 / 2) +'/monthly'
+  // console.log(newPrice);
+  const [change, setChange] = useState({
+    plan: 'Annual Plan',
+    price: '$59.99/year',
+  })
+  function changes(){
+    if(change.plan === 'Annual Plan' && change.price === '$59.99/year'){
+      setChange({plan: 'Monthly Plan', price: '$' + Math.ceil(59.99/12) + '/month'})
+    }else{
+      setChange({plan: 'Annual Plan',
+      price: '$59.99/year'})
+    }
+  }
+  // function cancel(){
+    
+  // }
   return (
     <div className='er'>
-    <div id='ant' className='mt-3'>
+    <div id='ant' className=''>
       <div style={{height: '100%'}} className='d-flex justify-content-center align-items-center'>
-        <div style={{width: '20rem', height: '90%'}} className='ro'>
+        <div style={{width: '18rem', height: '90%'}} className='ro'>
           <div> 
-        <img src={picture} alt="" style={{width: '20rem', height: '11rem'}} className='dd'/>
+        <img src={picture} alt="" style={{width: '18rem', height: '11rem'}} className='dd'/>
         </div>
         <div className='text-center mt-4 we'>
           <h2>Order Summary</h2>
@@ -26,11 +46,11 @@ const ProjectX = () => {
               <img src={music} alt="music-icon" />
             </div>
             <div className='text'>
-                <h6>Annual Plan</h6>
-              <p>$59.99/year</p>
+                <h6> {change.plan} </h6>
+              <p> {change.price} </p>
             </div>
             <div className='blue text-end'>
-              <a href="">change</a>
+              <a href="#" onClick={changes}>change</a>
             </div>
           </div>
         </div>
