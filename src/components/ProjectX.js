@@ -27,7 +27,7 @@ const ProjectX = () => {
     
   // }
   return (
-    <div className='er'>
+    <div className='er w-100'>
     <div id='ant' className=''>
       <div style={{height: '100%'}} className='d-flex justify-content-center align-items-center'>
         <div style={{width: '20rem', height: '90%'}} className='ro'>
